@@ -1,0 +1,19 @@
+.rapBarOut {
+	border: solid 1px #bab;
+	cursor: pointer;
+	position: relative;
+	user-select: none;
+}
+
+.rapBarIn {
+	position: absolute;
+	height: 100%;
+	box-shadow: inset -2px -2px 4px rgba(0,0,0,0.6),inset 2px 2px 4px rgba(255,255,255,0.6);
+	z-index: 1;
+}
+.container { margin: 150px auto; }
+body { font-family: 'Quicksand'; min-height: 100vh; background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);}
+.rapBarOut{border: solid 1px #bab;position:relative;cursor:pointer; border-radius: 3px;}
+.rapBarIn{z-index:1;position:absolute;height:100%}
+h2 { margin: 20px auto; }
+.btn { margin-top: 20px; }

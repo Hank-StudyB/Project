@@ -1,0 +1,11 @@
+@charset "UTF-8";
+* {
+	margin : 5px;
+}
+#m1 > p:last-child {
+	height : 20px;
+}
+span {
+	display : inline-block;
+	height : 20px;
+}
